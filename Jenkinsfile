@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Show data') {
+      steps {
+        sh 'cat abc.txt'
+      }
+    }
+
   }
 }
